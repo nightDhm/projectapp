@@ -1,0 +1,55 @@
+{
+  "pages": [
+    "pages/home/index",
+    "pages/map/index",
+    "pages/plus/index",
+    "pages/community/index",
+    "pages/mine/index"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#1296db",
+    "navigationBarTitleText": "垃圾分类回收",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color":"#bfbfbf",
+    "selectedColor":"1296db",
+    "list": [
+      {
+        "pagePath": "pages/home/index",
+        "text": "首页",
+        "iconPath": "assets/tab-img/home-1.png",
+        "selectedIconPath": "assets/tab-img/home.png"
+      },
+      {
+        "pagePath": "pages/map/index",
+        "text": "地图",
+        "iconPath": "assets/tab-img/map-1.png",
+        "selectedIconPath": "assets/tab-img/map.png"
+      },
+      {
+        "pagePath": "pages/plus/index",
+        "text": "订单",
+        "iconPath": "assets/tab-img/plus-1.png",
+        "selectedIconPath": "assets/tab-img/plus.png"
+      },
+      {
+        "pagePath": "pages/community/index",
+        "text": "社区",
+        "iconPath": "assets/tab-img/community-1.png",
+        "selectedIconPath": "assets/tab-img/community.png"
+      },
+      {
+        "pagePath": "pages/mine/index",
+        "text": "我的",
+        "iconPath": "assets/tab-img/mine-1.png",
+        "selectedIconPath": "assets/tab-img/mine.png"
+      }
+    ]
+  },
+
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}
